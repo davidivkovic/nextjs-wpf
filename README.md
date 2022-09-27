@@ -22,11 +22,11 @@ https://user-images.githubusercontent.com/16724395/192407115-065e5588-88dd-4b21-
 The goal of this project was to develop a simple binding system in pwf, inspired by declarative frontent frameworks.
 
 Implemented are:
-- [`Window`](/src/Primitives/Window.cs) - A window whose title and icon are stripped using Win32 api `uxtheme.dll`, providing a clean look
-- [`Component`](/src/Primitives/Component.cs) - A Simple component abstraction, provding binding capabilities which are generated using `PropertyChanged.Fody`
+- [`Window`](/src/Primitives/Window.cs) - A window whose title and icon are stripped using the win32 api `uxtheme.dll`, providing a clean look.
+- [`Component`](/src/Primitives/Component.cs) - A Simple component abstraction, provding binding capabilities which are generated using `PropertyChanged.Fody`.
 - [`Sample View`](/src/Views/ViewA.xaml.cs) - The main view of the application. It inherits the aforementioned `Component`.
-- [`Main Window`](/src/MainWindow.xaml.cs) - Views can be dynamically swapped using the `CurrentView` preopery of type `Component`
-- [`Logo Track`](/src/Components/LogoTrack.xaml) - Demonstrates how to encapsulate a specific component. Also exposes "props" (Dependency Properties) using the `[Bind]` attribute found in `Kasay.DependencyProperty.WPF.Fody`
+- [`Main Window`](/src/MainWindow.xaml.cs) - Views can be dynamically swapped using the `CurrentView` property of type `Component`.
+- [`Logo Track`](/src/Components/LogoTrack.xaml) - Demonstrates how to encapsulate a specific component. It also exposes "props" (Dependency Properties) using the `[Bind]` attribute found in `Kasay.DependencyProperty.WPF.Fody`.
 
 ## Getting Started 🛠️
 1. Clone the project using git or by downloading the source code
