@@ -19,7 +19,7 @@ This project demonstrates the capabilities of WPF showcasing a simple yet beauti
 https://user-images.githubusercontent.com/16724395/192407115-065e5588-88dd-4b21-a22d-f9ab15f5fa92.mp4
 
 ### Info ℹ️
-The goal of this project was to develop a simple binding system in pwf, inspired by declarative frontent frameworks.
+The goal of this project was to develop a simple binding system in WPF, inspired by declarative frontend frameworks such as Vue.js.
 
 Implemented are:
 - [`Window`](/src/Primitives/Window.cs) - A window whose title and icon are stripped using the win32 api `uxtheme.dll`, providing a clean look.
