@@ -8,6 +8,7 @@ This project demonstrates the capabilities of WPF showcasing a simple yet beauti
 - [PropertyChanged.Fody](https://github.com/Fody/PropertyChanged/)
 - [Kasay.DependencyProperty.WPF.Fody](https://github.com/robinzevallos/Kasay.DependencyProperty.WPF.Fody)
 - [SharpVectors.Wpf](https://github.com/ElinamLLC/SharpVectors)
+- [Inter Font](https://rsms.me/inter/)
 
 # Showcase 📸
 ![cta](/images/cta.png)
