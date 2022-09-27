@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CA1806: Do not ignore method results
+dotnet_diagnostic.CA1806.severity = none

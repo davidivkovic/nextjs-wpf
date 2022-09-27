@@ -1,0 +1,48 @@
+﻿<primitives:Window  
+    xmlns:primitives="clr-namespace:P1.Primitives"
+    x:Class="P1.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Next.js" Height="1000" Width="1400"
+    WindowStartupLocation="CenterScreen"
+    FontFamily="/Fonts/#Inter"
+    DataContext="{Binding RelativeSource={RelativeSource Self}}"
+>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="13" Margin="0 0 10 0">Current Count:</TextBlock>
+                <TextBlock Text="{Binding Count}"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="13" Margin="0 0 10 0">Double Count:</TextBlock>
+                <TextBlock Text="{Binding DoubleCount}"></TextBlock>
+            </StackPanel>
+        
+            --><!--<Button Margin="0 10" HorizontalAlignment="Left" Height="30px" Width="200px" Command="{Binding OnIncrement}">Increment</Button>--><!--
+
+            <TextBox Height="30" Width="200" Padding="2 6" Text="{Binding NewName, Mode=TwoWay}"></TextBox>
+            <Button 
+                Height="30" Width="200"
+                IsDefault="True"
+                Command="{Binding OnAddName}"
+            >
+                Add name
+            </Button>
+        </StackPanel>
+        <ListView Grid.Column="1" ItemsSource="{Binding Names}"></ListView>-->
+        <!--<Button Width="200" Height="30" Command="{Binding OnChangeView}">Change Views</Button>-->
+        <ContentControl Grid.Row="1" Content="{Binding CurrentView}"></ContentControl>
+    </Grid>
+</primitives:Window>

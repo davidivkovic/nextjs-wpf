@@ -1,0 +1,156 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>next-js-seeklogo.com (1).ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\hulu.png" />
+    <None Remove="Assets\Images\learn.png" />
+    <None Remove="Assets\Images\netflix.png" />
+    <None Remove="Assets\Images\nike.png" />
+    <None Remove="Assets\Images\notion.png" />
+    <None Remove="Assets\Images\target.png" />
+    <None Remove="Assets\Images\tiktok.png" />
+    <None Remove="Assets\Images\twitch.png" />
+    <None Remove="Assets\Logos\authzero.svg" />
+    <None Remove="Assets\Logos\binance.svg" />
+    <None Remove="Assets\Logos\coinbase.svg" />
+    <None Remove="Assets\Logos\docker.svg" />
+    <None Remove="Assets\Logos\eaze.svg" />
+    <None Remove="Assets\Logos\github.svg" />
+    <None Remove="Assets\Logos\hulu.svg" />
+    <None Remove="Assets\Logos\invision.svg" />
+    <None Remove="Assets\Logos\jet.svg" />
+    <None Remove="Assets\Logos\magicleap.svg" />
+    <None Remove="Assets\Logos\netflix.svg" />
+    <None Remove="Assets\Logos\opencollective.svg" />
+    <None Remove="Assets\Logos\pling.svg" />
+    <None Remove="Assets\Logos\scale.svg" />
+    <None Remove="Assets\Logos\sesame.svg" />
+    <None Remove="Assets\Logos\starbucks.svg" />
+    <None Remove="Assets\Logos\tencent.svg" />
+    <None Remove="Assets\Logos\ticketmaster.svg" />
+    <None Remove="Assets\Logos\trovit.svg" />
+    <None Remove="Assets\Logos\trulia.svg" />
+    <None Remove="Assets\Logos\twitch.svg" />
+    <None Remove="Assets\Logos\uber.svg" />
+    <None Remove="Assets\Logos\vercel.svg" />
+    <None Remove="Fonts\Inter.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Images\hulu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\learn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\netflix.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\nike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\notion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\target.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\tiktok.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\twitch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\authzero.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\binance.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\coinbase.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\docker.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\eaze.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\github.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\hulu.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\invision.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\jet.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\magicleap.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\netflix.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\opencollective.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\pling.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\scale.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\sesame.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\starbucks.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\tencent.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\ticketmaster.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\trovit.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\trulia.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\twitch.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logos\vercel.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="next-js-seeklogo.com (1).ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+    <PackageReference Include="Kasay.DependencyProperty.WPF.Fody" Version="1.0.3" />
+    <PackageReference Include="PropertyChanged.Fody" Version="4.0.3" />
+    <PackageReference Include="SharpVectors.Wpf" Version="1.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Logos\uber.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Fonts\Inter.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
