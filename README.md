@@ -28,10 +28,15 @@ Implemented are:
 - [`Main Window`](/src/MainWindow.xaml.cs) - Views can be dynamically swapped using the `CurrentView` preopery of type `Component`
 - [`Logo Track`](/src/Components/LogoTrack.xaml) - Demonstrates how to encapsulate a specific component. Also exposes "props" (Dependency Properties) using the `[Bind]` attribute found in `Kasay.DependencyProperty.WPF.Fody`
 
+## Getting Started 🛠️
+1. Clone the project using git or by downloading the source code
+2. Open the solution file using Visual Studio 2022 or the latest version of Jetbrains Rider
+3. Restore NuGet Packages, Build and Run the application
+
 ### Remarks ⁉️
-This application was built and tested using Windows 11. It is not guaranteed it will work on older versions of Windows.
+This application was built and tested using Windows 11. It is not guaranteed to work on older versions of Windows.
 
 ## Legal ⚖️
-I am not affiliated, associated, authorized, endorsed by, or in any way officially connected with Vercel.com.
+I am not affiliated, associated, authorized, endorsed by, or in any way officially connected to vercel.com.
 
 All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
